@@ -22,7 +22,10 @@ function toggleLanguage() {
 <template>
   <header class="site-header">
     <nav class="nav-container" aria-label="Primary navigation">
-      <a class="brand" href="#home" @click="isOpen = false">MarketGo</a>
+      <a class="brand" href="#home" @click="isOpen = false">
+        <img src="/assets/images/brand/logo-marketgo.png" alt="MarketGo logo" />
+        <span>MarketGo</span>
+      </a>
       <button class="nav-toggle" type="button" :aria-expanded="isOpen" aria-label="Abrir menu" @click="isOpen = !isOpen">
         <span></span><span></span><span></span>
       </button>

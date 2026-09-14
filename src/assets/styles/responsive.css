@@ -5,8 +5,12 @@
   .nav-panel a { padding: 13px 6px; }
   .language-button { margin-top: 10px; }
   .hero-container, .benefits-layout, .contact-panel { grid-template-columns: 1fr; }
-  .hero-device { justify-self: start; }
-  .services-grid, .testimonial-track, .team-grid { grid-template-columns: 1fr; }
+  .hero-showcase { min-height: 500px; }
+  .hero-device { transform: none; }
+  .hero-stats, .services-grid, .testimonial-track, .team-grid, .mission-strip, .testimonial-cta, .contact-highlights { grid-template-columns: 1fr; }
+  .testimonial-cta { align-items: start; }
+  .benefits-copy { position: static; }
+  .benefit-card:nth-child(2) { transform: none; }
   .pricing-grid { grid-template-columns: 1fr; }
   .plan-card--featured { transform: none; }
   .footer-inner { align-items: flex-start; flex-direction: column; }
@@ -15,6 +19,10 @@
   .section { padding: 72px 0; }
   .section-full { padding-top: 112px; }
   .hero-copy h1 { font-size: 4rem; }
-  .hero-actions { flex-direction: column; }
-  .contact-panel { padding: 24px; }
+  .hero-actions, .hero-stats { grid-template-columns: 1fr; flex-direction: column; }
+  .hero-showcase { min-height: auto; margin-top: 34px; }
+  .floating-chip { position: static; margin-top: 14px; width: 100%; }
+  .device-orbit { display: none; }
+  .contact-panel, .contact-form { padding: 24px; }
+  .form-row { grid-template-columns: 1fr; }
 }

@@ -5,13 +5,21 @@ const benefits = ['speed', 'control', 'growth']
 </script>
 
 <template>
-  <section id="benefits" class="section">
+  <section id="benefits" class="section benefits-section">
     <div class="container benefits-layout">
-      <div class="section-header section-header--left">
-        <p class="eyebrow">{{ t('benefits.eyebrow') }}</p>
-        <h2>{{ t('benefits.title') }}</h2>
-        <p>{{ t('benefits.subtitle') }}</p>
+      <div class="benefits-copy">
+        <div class="section-header section-header--left">
+          <p class="eyebrow">{{ t('benefits.eyebrow') }}</p>
+          <h2>{{ t('benefits.title') }}</h2>
+          <p>{{ t('benefits.subtitle') }}</p>
+        </div>
+        <div class="benefits-panel">
+          <span>{{ t('benefits.panel.label') }}</span>
+          <strong>{{ t('benefits.panel.value') }}</strong>
+          <p>{{ t('benefits.panel.description') }}</p>
+        </div>
       </div>
+
       <div class="benefits-grid">
         <article v-for="(benefit, index) in benefits" :key="benefit" class="benefit-card">
           <span class="benefit-number">0{{ index + 1 }}</span>

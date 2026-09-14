@@ -1,5 +1,49 @@
 ﻿.services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-.service-card { min-height: 360px; padding: 18px; border-radius: var(--radius-lg); background: #fff; box-shadow: var(--shadow-card); border: 1px solid rgba(220,232,237,.78); }
-.service-visual { height: 150px; border-radius: 16px; margin-bottom: 24px; background: linear-gradient(135deg, rgba(44,185,195,.18), rgba(37,99,167,.18)), radial-gradient(circle at 70% 35%, #fff 0 18%, transparent 19%); }
+.service-card {
+  min-height: 370px;
+  padding: 18px;
+  border-radius: var(--radius-lg);
+  background: #fff;
+  box-shadow: var(--shadow-card);
+  border: 1px solid rgba(220,232,237,.78);
+  transition: transform .22s ease, box-shadow .22s ease;
+}
+.service-card:hover { transform: translateY(-6px); box-shadow: 0 24px 54px rgba(21, 51, 80, .14); }
+.service-visual {
+  height: 158px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  background: linear-gradient(135deg, rgba(44,185,195,.18), rgba(37,99,167,.18)), radial-gradient(circle at 70% 35%, #fff 0 18%, transparent 19%);
+}
+.service-visual--catalog { background: linear-gradient(135deg, rgba(44,185,195,.22), rgba(149,240,237,.2)), repeating-linear-gradient(90deg, rgba(255,255,255,.9) 0 18px, transparent 18px 32px); }
+.service-visual--orders { background: linear-gradient(135deg, rgba(54,184,111,.2), rgba(44,185,195,.16)), radial-gradient(circle at 34% 42%, #fff 0 18%, transparent 19%); }
+.service-visual--analytics { background: linear-gradient(135deg, rgba(37,99,167,.2), rgba(44,185,195,.18)), linear-gradient(90deg, transparent 0 18%, rgba(255,255,255,.84) 18% 24%, transparent 24% 42%, rgba(255,255,255,.84) 42% 48%, transparent 48% 70%, rgba(255,255,255,.84) 70% 76%, transparent 76%); }
 .service-card h3 { font-size: 1.25rem; margin-bottom: 10px; }
 .service-card p { color: var(--color-muted); line-height: 1.65; }
+.mission-strip {
+  margin-top: 42px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  background: var(--color-border);
+  box-shadow: var(--shadow-card);
+}
+.mission-item {
+  padding: 28px;
+  background: #fff;
+}
+.mission-item span {
+  color: var(--color-teal-dark);
+  font-size: .78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.mission-item strong {
+  display: block;
+  margin-top: 8px;
+  color: var(--color-navy);
+  font-size: 1.35rem;
+}
+.mission-item p { margin-top: 8px; color: var(--color-muted); line-height: 1.6; }

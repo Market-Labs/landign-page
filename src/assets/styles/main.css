@@ -2,4 +2,5 @@
 .btn:hover { transform: translateY(-2px); }
 .btn--primary { background: var(--color-teal); color: #fff; box-shadow: 0 10px 24px rgba(44, 185, 195, .24); }
 .btn--ghost { background: rgba(255,255,255,.74); color: var(--color-navy); border: 1px solid rgba(20,33,49,.08); }
+.btn--light { background: #fff; color: var(--color-navy); box-shadow: 0 12px 26px rgba(16, 40, 63, .16); }
 .landing-page { min-height: 100vh; }
