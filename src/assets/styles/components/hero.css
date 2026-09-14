@@ -1,4 +1,4 @@
-.hero-section {
+﻿.hero-section {
   position: relative;
   display: flex;
   align-items: center;
@@ -99,7 +99,7 @@
 .floating-chip strong { color: var(--color-navy); }
 .floating-chip span { margin-top: 3px; color: var(--color-muted); font-size: .85rem; }
 .floating-chip--top { top: 70px; right: 0; }
-.floating-chip--bottom { left: 8px; bottom: 128px; }
+.floating-chip--bottom { left: 8px; bottom: 350px; }
 
 .metric-card strong { color: #fff; }
 .chart-bars i:nth-child(5) { background: linear-gradient(180deg, var(--color-orange), #ffcb55); }
