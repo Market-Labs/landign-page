@@ -15,21 +15,50 @@ const { t } = useI18n()
           <a class="btn btn--primary" href="#services">{{ t('hero.primaryAction') }}</a>
           <a class="btn btn--ghost" href="#contact">{{ t('hero.secondaryAction') }}</a>
         </div>
+        <div class="hero-stats" aria-label="MarketGo highlights">
+          <div>
+            <strong>2</strong>
+            <span>{{ t('hero.stats.roles') }}</span>
+          </div>
+          <div>
+            <strong>24/7</strong>
+            <span>{{ t('hero.stats.alerts') }}</span>
+          </div>
+          <div>
+            <strong>360</strong>
+            <span>{{ t('hero.stats.traceability') }}</span>
+          </div>
+        </div>
       </div>
-      <div class="hero-device" aria-label="MarketGo dashboard preview">
-        <div class="device-topbar"><span></span><span></span><span></span></div>
-        <div class="device-content">
-          <div class="metric-card metric-card--wide">
-            <span>{{ t('hero.metricSales') }}</span>
-            <strong>+34%</strong>
+
+      <div class="hero-showcase" aria-label="MarketGo platform preview">
+        <div class="device-orbit" aria-hidden="true"></div>
+        <img class="hero-logo-mark" src="/assets/images/brand/logo-marketgo.png" alt="MarketGo platform icon" />
+        <div class="hero-device">
+          <div class="device-topbar">
+            <span></span><span></span><span></span>
           </div>
-          <div class="chart-bars" aria-hidden="true">
-            <i></i><i></i><i></i><i></i><i></i>
+          <div class="device-content">
+            <div class="metric-card metric-card--wide">
+              <span>{{ t('hero.metricInventory') }}</span>
+              <strong>128</strong>
+            </div>
+            <div class="chart-bars" aria-hidden="true">
+              <i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <div class="metric-grid">
+              <div><span>{{ t('hero.metricLots') }}</span><strong>36</strong></div>
+              <div><span>{{ t('hero.metricOrders') }}</span><strong>18</strong></div>
+            </div>
           </div>
-          <div class="metric-grid">
-            <div><span>Stock</span><strong>98%</strong></div>
-            <div><span>Orders</span><strong>126</strong></div>
-          </div>
+        </div>
+        <div class="floating-chip floating-chip--top">
+          <strong>{{ t('hero.chips.fresh') }}</strong>
+          <span>{{ t('hero.chips.freshDetail') }}</span>
+        </div>
+        <div class="floating-chip floating-chip--bottom">
+          <strong>{{ t('hero.chips.supply') }}</strong>
+          <span>{{ t('hero.chips.supplyDetail') }}</span>
         </div>
       </div>
     </div>

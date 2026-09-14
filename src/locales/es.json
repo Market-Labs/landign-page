@@ -1,11 +1,92 @@
 ﻿{
   "nav": { "home": "Inicio", "services": "Servicios", "benefits": "Beneficios", "pricing": "Planes", "team": "Equipo", "contact": "Contacto" },
-  "hero": { "eyebrow": "Landing page oficial", "title": "MarketGo", "subtitle": "Una experiencia digital para mostrar, vender y gestionar productos con claridad desde el primer contacto.", "primaryAction": "Ver servicios", "secondaryAction": "Contactanos", "metricSales": "Ventas" },
-  "services": { "eyebrow": "Servicios", "title": "Todo lo esencial para presentar tu producto", "subtitle": "Una landing pensada para comunicar valor, activar conversiones y sostener crecimiento.", "items": { "catalog": { "title": "Catalogo inteligente", "description": "Organiza productos, beneficios y categorias con una experiencia clara para tus clientes." }, "orders": { "title": "Flujo comercial", "description": "Dirige a los visitantes hacia acciones concretas como consultas, registros o compras." }, "analytics": { "title": "Lectura del mercado", "description": "Secciones preparadas para comunicar metricas, resultados y confianza." } } },
-  "benefits": { "eyebrow": "Beneficios", "title": "Una presencia web simple, rapida y convincente", "subtitle": "Inspirada visualmente en Ventix, pero construida con la arquitectura Vue de BuildLine.", "items": { "speed": { "title": "Carga ligera", "description": "Vite y Vue permiten una landing rapida, modular y facil de mantener." }, "control": { "title": "Contenido bilingue", "description": "Los textos se centralizan en archivos JSON para escalar a espanol e ingles." }, "growth": { "title": "Base escalable", "description": "La estructura deja espacio para futuras secciones sin mezclar estilos ni responsabilidades." } } },
-  "testimonials": { "eyebrow": "Confianza", "title": "Pensado para usuarios que necesitan decidir rapido", "items": { "one": { "quote": "La informacion se entiende desde el primer scroll.", "name": "Cliente potencial", "role": "Comprador digital" }, "two": { "quote": "La propuesta se ve moderna sin sentirse complicada.", "name": "Aliado comercial", "role": "Operaciones" }, "three": { "quote": "La estructura ayuda a presentar el producto con orden.", "name": "Equipo MarketGo", "role": "Producto" } } },
-  "pricing": { "eyebrow": "Planes", "title": "Opciones claras para empezar", "subtitle": "Bloque preparado para adaptar precios, beneficios o paquetes reales.", "action": "Solicitar informacion", "plans": { "starter": { "name": "Starter", "description": "Para validar la presencia digital del producto.", "price": "Desde S/ 0" }, "pro": { "name": "Pro", "description": "Para presentar una oferta mas completa y comercial.", "price": "A medida" } } },
-  "team": { "eyebrow": "Equipo", "title": "El equipo detras de la experiencia", "members": { "product": { "name": "Producto", "role": "Estrategia y propuesta de valor" }, "design": { "name": "Diseno", "role": "Interfaz y experiencia visual" }, "engineering": { "name": "Ingenieria", "role": "Implementacion Vue + Vite" } } },
-  "contact": { "eyebrow": "Contacto", "title": "Conversemos sobre MarketGo", "subtitle": "Formulario visual listo para conectar luego con un servicio real.", "name": "Nombre", "namePlaceholder": "Tu nombre", "email": "Correo", "emailPlaceholder": "tu@correo.com", "message": "Mensaje", "messagePlaceholder": "Cuentanos que necesitas", "action": "Enviar mensaje" },
-  "footer": { "slogan": "Landing page de MarketGo", "copy": "2026 Â© MarketGo. Todos los derechos reservados." }
+  "hero": {
+    "eyebrow": "Market-Labs presenta",
+    "title": "MarketGo",
+    "subtitle": "Plataforma web para gestionar inventario, lotes, conservacion y abastecimiento de productos organicos entre minimarkets y proveedores.",
+    "primaryAction": "Conocer la solucion",
+    "secondaryAction": "Contactar al equipo",
+    "metricInventory": "Productos en inventario",
+    "metricLots": "Lotes",
+    "metricOrders": "Pedidos",
+    "stats": { "roles": "Roles conectados", "alerts": "Alertas de conservacion", "traceability": "Trazabilidad operativa" },
+    "chips": { "fresh": "Productos organicos", "freshDetail": "Vencimientos y condiciones", "supply": "Abastecimiento", "supplyDetail": "Pedidos entre proveedores y minimarkets" }
+  },
+  "services": {
+    "eyebrow": "Solucion",
+    "title": "Control centralizado para productos frescos",
+    "subtitle": "MarketGo ordena la informacion critica del minimarket y facilita la coordinacion con proveedores desde un dashboard comun.",
+    "items": {
+      "catalog": { "title": "Inventario y lotes", "description": "Registra productos organicos, consulta existencias, organiza lotes y controla fechas de vencimiento." },
+      "orders": { "title": "Pedidos de abastecimiento", "description": "Conecta proveedores y minimarkets para crear, revisar, aceptar o rechazar pedidos de manera trazable." },
+      "analytics": { "title": "Conservacion y alertas", "description": "Monitorea temperatura, humedad y productos en riesgo para reducir mermas y tomar acciones oportunas." }
+    },
+    "mission": { "label": "Mision", "title": "Reducir perdidas y mejorar la gestion", "description": "Centralizar inventario, conservacion y abastecimiento para que los minimarkets trabajen con informacion clara." },
+    "vision": { "label": "Vision", "title": "Un ecosistema organico mas conectado", "description": "Impulsar operaciones sostenibles entre comercios y proveedores mediante trazabilidad y coordinacion digital." }
+  },
+  "benefits": {
+    "eyebrow": "Beneficios",
+    "title": "Menos merma, mas trazabilidad y mejores decisiones",
+    "subtitle": "La landing comunica el valor de una plataforma pensada para operaciones reales de productos organicos.",
+    "items": {
+      "speed": { "title": "Deteccion temprana", "description": "Alertas por vencimiento y condiciones de conservacion ayudan a actuar antes de que el producto se deteriore." },
+      "control": { "title": "Roles y permisos claros", "description": "Administradores y proveedores comparten informacion, pero cada uno opera segun sus responsabilidades." },
+      "growth": { "title": "Abastecimiento ordenado", "description": "Los pedidos aceptados permiten incorporar productos al inventario manteniendo historial y control." }
+    },
+    "panel": { "label": "Enfoque clave", "value": "Productos organicos bajo control", "description": "Inventario, lotes, proveedores, pedidos y alertas se presentan como una misma operacion." }
+  },
+  "testimonials": {
+    "eyebrow": "Usuarios objetivo",
+    "title": "Disenado para quienes gestionan productos sensibles al tiempo",
+    "subtitle": "Mensajes orientados a administradores de minimarkets y proveedores de productos organicos.",
+    "action": "Ver planes",
+    "items": {
+      "one": { "quote": "Necesito saber que productos estan por vencer antes de que se conviertan en perdida.", "name": "Administrador de minimarket", "role": "Gestion de inventario", "initials": "AM" },
+      "two": { "quote": "Quiero consultar mis productos ofrecidos y dar seguimiento a los pedidos generados.", "name": "Proveedor organico", "role": "Abastecimiento", "initials": "PO" },
+      "three": { "quote": "La trazabilidad ayuda a coordinar mejor las entregas y mantener informacion confiable.", "name": "Equipo Market-Labs", "role": "Producto", "initials": "ML" }
+    }
+  },
+  "pricing": {
+    "eyebrow": "Planes",
+    "title": "Opciones para presentar la propuesta comercial",
+    "subtitle": "Bloque preparado para comunicar paquetes o versiones futuras sin implementar la plataforma dentro de este repositorio.",
+    "action": "Solicitar informacion",
+    "plans": {
+      "starter": {
+        "tag": "Inicio",
+        "name": "Landing informativa",
+        "description": "Para explicar la solucion y validar interes de minimarkets y proveedores.",
+        "price": "Presentacion",
+        "features": { "catalog": "Propuesta de valor clara", "contact": "Formulario de contacto", "analytics": "Secciones listas para demo" }
+      },
+      "pro": {
+        "tag": "Siguiente etapa",
+        "name": "Demo comercial",
+        "description": "Para conectar la landing con una futura plataforma o prototipo funcional.",
+        "price": "A medida",
+        "features": { "catalog": "Narrativa completa del producto", "contact": "CTA orientados a conversion", "analytics": "Base para futuras metricas" }
+      }
+    }
+  },
+  "team": {
+    "eyebrow": "Equipo",
+    "title": "Integrantes de Market-Labs",
+    "subtitle": "Equipo de Ingenieria de Software responsable de la propuesta MarketGo.",
+    "members": {
+      "caceres": { "name": "Caceres Pizarro, Albino Florencio", "role": "Ingenieria de Software", "initials": "AC", "focus": "Producto y desarrollo" },
+      "merino": { "name": "Merino Ordinola, Winnie Lisbeth", "role": "Ingenieria de Software", "initials": "WM", "focus": "Investigacion y UX" },
+      "torres": { "name": "Torres Huaman, Alexis Calin", "role": "Ingenieria de Software", "initials": "AT", "focus": "Analisis y soporte" }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Conversemos sobre MarketGo",
+    "subtitle": "Esta landing presenta el producto; la plataforma principal se desarrollara en otro repositorio.",
+    "name": "Nombre", "namePlaceholder": "Tu nombre",
+    "email": "Correo", "emailPlaceholder": "Tu correo electronico",
+    "message": "Mensaje", "messagePlaceholder": "Cuentanos que necesitas conocer",
+    "action": "Enviar mensaje",
+    "highlights": { "reply": { "value": "B2B", "label": "Minimarkets y proveedores" }, "scope": { "value": "Web", "label": "Landing informativa" } }
+  },
+  "footer": { "slogan": "Startup tecnologica peruana enfocada en soluciones digitales escalables.", "copy": "2026 (c) Market-Labs. Todos los derechos reservados." }
 }

@@ -1,4 +1,6 @@
 ﻿.site-footer { padding: 34px 0; background: var(--color-navy); color: #fff; }
 .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
-.footer-brand { color: #95f0ed; }
+.footer-brand-group { display: flex; align-items: center; gap: 14px; }
+.footer-brand-group img { width: 48px; height: 48px; object-fit: contain; }
+.footer-brand { color: var(--color-mint); }
 .footer-inner p, .footer-inner small { color: rgba(255,255,255,.72); }
