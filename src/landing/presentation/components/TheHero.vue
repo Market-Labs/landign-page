@@ -33,7 +33,6 @@ const { t } = useI18n()
 
       <div class="hero-showcase" aria-label="MarketGo platform preview">
         <div class="device-orbit" aria-hidden="true"></div>
-        <img class="hero-logo-mark" src="/assets/images/brand/logo-marketgo.png" alt="MarketGo platform icon" />
         <div class="hero-device">
           <div class="device-topbar">
             <span></span><span></span><span></span>
@@ -64,3 +63,4 @@ const { t } = useI18n()
     </div>
   </section>
 </template>
+

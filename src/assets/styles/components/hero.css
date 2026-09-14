@@ -101,13 +101,6 @@
 .floating-chip--top { top: 70px; right: 0; }
 .floating-chip--bottom { left: 8px; bottom: 64px; }
 
-.hero-logo-mark {
-  position: absolute;
-  top: 34px;
-  width: min(44vw, 260px);
-  filter: drop-shadow(0 22px 30px rgba(0, 91, 234, .22));
-  z-index: 1;
-}
-.hero-device { margin-top: 160px; }
 .metric-card strong { color: #fff; }
 .chart-bars i:nth-child(5) { background: linear-gradient(180deg, var(--color-orange), #ffcb55); }
+
