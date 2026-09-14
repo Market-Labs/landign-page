@@ -1,0 +1,4 @@
+﻿.contact-panel { display: grid; grid-template-columns: .9fr 1.1fr; gap: 42px; padding: 42px; border-radius: var(--radius-lg); background: var(--color-surface-soft); border: 1px solid var(--color-border); }
+.contact-form { display: grid; gap: 16px; }
+.contact-form label { display: grid; gap: 8px; color: var(--color-navy); font-weight: 800; }
+.contact-form input, .contact-form textarea { width: 100%; border: 1px solid var(--color-border); border-radius: var(--radius-sm); padding: 14px 16px; color: var(--color-text); background: #fff; resize: vertical; }

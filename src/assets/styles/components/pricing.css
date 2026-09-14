@@ -1,0 +1,6 @@
+﻿.pricing-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 380px)); justify-content: center; gap: 24px; }
+.plan-card { padding: 30px; border-radius: var(--radius-lg); border: 1px solid var(--color-border); box-shadow: var(--shadow-card); background: #fff; }
+.plan-card--featured { background: var(--color-navy); color: #fff; transform: translateY(-8px); }
+.plan-card p { min-height: 72px; margin: 12px 0 24px; color: var(--color-muted); line-height: 1.65; }
+.plan-card--featured p { color: rgba(255,255,255,.76); }
+.plan-card strong { display: block; margin-bottom: 24px; font-size: 2rem; }

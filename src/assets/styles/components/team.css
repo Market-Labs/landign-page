@@ -1,0 +1,4 @@
+﻿.team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.team-card { text-align: center; padding: 28px 20px; border-radius: var(--radius-lg); background: #fff; box-shadow: var(--shadow-card); }
+.team-avatar { width: 110px; height: 110px; margin: 0 auto 18px; border-radius: 50%; background: linear-gradient(135deg, #95f0ed, #2563a7); border: 6px solid #eefcff; }
+.team-card p { margin-top: 6px; color: var(--color-muted); }
