@@ -6,14 +6,16 @@ const { t } = useI18n()
 <template>
   <footer class="site-footer">
     <div class="container footer-inner">
-      <div class="footer-brand-group">
-        <img src="/assets/images/brand/logo-marketlab.png" alt="Market-Labs logo" />
-        <div>
-          <a class="footer-brand" href="#home">Market-Labs</a>
-          <p>{{ t('footer.slogan') }}</p>
-        </div>
-      </div>
+      <a class="footer-brand" href="#home">
+        <img src="/assets/images/brand/logo-marketgo.png" alt="MarketGo logo" />
+        <span>MarketGo</span>
+      </a>
       <small>{{ t('footer.copy') }}</small>
+      <nav aria-label="Footer navigation">
+        <a href="#pricing">{{ t('footer.terms') }}</a>
+        <a href="#contact">{{ t('footer.privacy') }}</a>
+        <a href="#contact">{{ t('footer.support') }}</a>
+      </nav>
     </div>
   </footer>
 </template>

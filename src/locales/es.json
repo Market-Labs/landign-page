@@ -1,92 +1,52 @@
 ﻿{
-  "nav": { "home": "Inicio", "services": "Servicios", "benefits": "Beneficios", "pricing": "Planes", "team": "Equipo", "contact": "Contacto" },
-  "hero": {
-    "eyebrow": "Market-Labs presenta",
-    "title": "MarketGo",
-    "subtitle": "Plataforma web para gestionar inventario, lotes, conservacion y abastecimiento de productos organicos entre minimarkets y proveedores.",
-    "primaryAction": "Conocer la solucion",
-    "secondaryAction": "Contactar al equipo",
-    "metricInventory": "Productos en inventario",
-    "metricLots": "Lotes",
-    "metricOrders": "Pedidos",
-    "stats": { "roles": "Roles conectados", "alerts": "Alertas de conservacion", "traceability": "Trazabilidad operativa" },
-    "chips": { "fresh": "Productos organicos", "freshDetail": "Vencimientos y condiciones", "supply": "Abastecimiento", "supplyDetail": "Pedidos entre proveedores y minimarkets" }
+  "nav": { "product": "Descripcion del producto", "videos": "Videos", "pricing": "Planes", "contact": "Contacto", "access": "Acceder" },
+  "home": {
+    "eyebrow": "Gestion de inventario organico",
+    "title": "Controla tu inventario antes de que sea tarde",
+    "subtitle": "Alertas de vencimiento, condiciones de conservacion y pedidos de abastecimiento, todo en un solo lugar para tu minimarket organico.",
+    "demoAction": "Solicitar demo",
+    "videoAction": "Ver video",
+    "preview": { "inventory": "Productos controlados", "alerts": "Alertas activas", "orders": "Pedidos pendientes" }
   },
-  "services": {
-    "eyebrow": "Solucion",
-    "title": "Control centralizado para productos frescos",
-    "subtitle": "MarketGo ordena la informacion critica del minimarket y facilita la coordinacion con proveedores desde un dashboard comun.",
-    "items": {
-      "catalog": { "title": "Inventario y lotes", "description": "Registra productos organicos, consulta existencias, organiza lotes y controla fechas de vencimiento." },
-      "orders": { "title": "Pedidos de abastecimiento", "description": "Conecta proveedores y minimarkets para crear, revisar, aceptar o rechazar pedidos de manera trazable." },
-      "analytics": { "title": "Conservacion y alertas", "description": "Monitorea temperatura, humedad y productos en riesgo para reducir mermas y tomar acciones oportunas." }
-    },
-    "mission": { "label": "Mision", "title": "Reducir perdidas y mejorar la gestion", "description": "Centralizar inventario, conservacion y abastecimiento para que los minimarkets trabajen con informacion clara." },
-    "vision": { "label": "Vision", "title": "Un ecosistema organico mas conectado", "description": "Impulsar operaciones sostenibles entre comercios y proveedores mediante trazabilidad y coordinacion digital." }
-  },
-  "benefits": {
-    "eyebrow": "Beneficios",
-    "title": "Menos merma, mas trazabilidad y mejores decisiones",
-    "subtitle": "La landing comunica el valor de una plataforma pensada para operaciones reales de productos organicos.",
-    "items": {
-      "speed": { "title": "Deteccion temprana", "description": "Alertas por vencimiento y condiciones de conservacion ayudan a actuar antes de que el producto se deteriore." },
-      "control": { "title": "Roles y permisos claros", "description": "Administradores y proveedores comparten informacion, pero cada uno opera segun sus responsabilidades." },
-      "growth": { "title": "Abastecimiento ordenado", "description": "Los pedidos aceptados permiten incorporar productos al inventario manteniendo historial y control." }
-    },
-    "panel": { "label": "Enfoque clave", "value": "Productos organicos bajo control", "description": "Inventario, lotes, proveedores, pedidos y alertas se presentan como una misma operacion." }
-  },
-  "testimonials": {
-    "eyebrow": "Usuarios objetivo",
-    "title": "Disenado para quienes gestionan productos sensibles al tiempo",
-    "subtitle": "Mensajes orientados a administradores de minimarkets y proveedores de productos organicos.",
-    "action": "Ver planes",
-    "items": {
-      "one": { "quote": "Necesito saber que productos estan por vencer antes de que se conviertan en perdida.", "name": "Administrador de minimarket", "role": "Gestion de inventario", "initials": "AM" },
-      "two": { "quote": "Quiero consultar mis productos ofrecidos y dar seguimiento a los pedidos generados.", "name": "Proveedor organico", "role": "Abastecimiento", "initials": "PO" },
-      "three": { "quote": "La trazabilidad ayuda a coordinar mejor las entregas y mantener informacion confiable.", "name": "Equipo Market-Labs", "role": "Producto", "initials": "ML" }
+  "productInfo": {
+    "eyebrow": "Que ofrece MarketGo",
+    "title": "Un solo lugar para inventario, lotes, conservacion y abastecimiento",
+    "description": "MarketGo centraliza la operacion diaria de tu minimarket organico: sabras que productos requieren atencion, cuales estan por vencer y como avanza cada pedido, sin cambiar entre planillas o sistemas distintos.",
+    "highlight": { "title": "Alertas inteligentes", "description": "Vencimientos proximos y condiciones de conservacion fuera de rango, notificadas antes de que se conviertan en perdida." },
+    "cards": {
+      "inventory": { "title": "Inventario centralizado", "description": "Stock, categorias y proveedores en una sola vista." },
+      "lots": { "title": "Control de lotes", "description": "Trazabilidad completa por fecha y proveedor." },
+      "orders": { "title": "Pedidos de abastecimiento", "description": "Acepta o rechaza pedidos con un clic." },
+      "roles": { "title": "Accesos por rol", "description": "Cada usuario ve solo lo que le corresponde." }
     }
+  },
+  "videos": {
+    "eyebrow": "Conocenos",
+    "title": "Conoce al equipo y descubre MarketGo en accion",
+    "subtitle": "Dos videos cortos para conocer quienes estamos detras del producto y como puede ayudarte en tu dia a dia.",
+    "team": { "kicker": "ABOUT THE TEAM", "title": "Conoce a las personas detras de MarketGo", "description": "Los integrantes del equipo se presentan y cuentan que los motivo a crear la plataforma." },
+    "product": { "kicker": "ABOUT THE PRODUCT", "title": "Asi funciona MarketGo", "description": "Un recorrido por inventario, lotes, conservacion y abastecimiento en una sola demostracion." }
   },
   "pricing": {
     "eyebrow": "Planes",
-    "title": "Opciones para presentar la propuesta comercial",
-    "subtitle": "Bloque preparado para comunicar paquetes o versiones futuras sin implementar la plataforma dentro de este repositorio.",
-    "action": "Solicitar informacion",
+    "title": "Un plan para cada tamano de minimarket",
+    "subtitle": "Empieza con lo esencial y crece hacia funciones avanzadas de conservacion y abastecimiento.",
+    "action": "Elegir plan",
+    "salesAction": "Contactar ventas",
+    "badge": "Mas elegido",
     "plans": {
-      "starter": {
-        "tag": "Inicio",
-        "name": "Landing informativa",
-        "description": "Para explicar la solucion y validar interes de minimarkets y proveedores.",
-        "price": "Presentacion",
-        "features": { "catalog": "Propuesta de valor clara", "contact": "Formulario de contacto", "analytics": "Secciones listas para demo" }
-      },
-      "pro": {
-        "tag": "Siguiente etapa",
-        "name": "Demo comercial",
-        "description": "Para conectar la landing con una futura plataforma o prototipo funcional.",
-        "price": "A medida",
-        "features": { "catalog": "Narrativa completa del producto", "contact": "CTA orientados a conversion", "analytics": "Base para futuras metricas" }
-      }
-    }
-  },
-  "team": {
-    "eyebrow": "Equipo",
-    "title": "Integrantes de Market-Labs",
-    "subtitle": "Equipo de Ingenieria de Software responsable de la propuesta MarketGo.",
-    "members": {
-      "caceres": { "name": "Caceres Pizarro, Albino Florencio", "role": "Ingenieria de Software", "initials": "AC", "focus": "Producto y desarrollo" },
-      "merino": { "name": "Merino Ordinola, Winnie Lisbeth", "role": "Ingenieria de Software", "initials": "WM", "focus": "Investigacion y UX" },
-      "torres": { "name": "Torres Huaman, Alexis Calin", "role": "Ingenieria de Software", "initials": "AT", "focus": "Analisis y soporte" }
+      "basic": { "name": "Basico", "price": "S/ 79", "period": "/mes", "description": "Para un minimarket con operacion simple", "features": ["Inventario y lotes", "Alertas de vencimiento", "1 usuario administrador"] },
+      "professional": { "name": "Profesional", "price": "S/ 149", "period": "/mes", "description": "Para minimarkets con varios proveedores", "features": ["Todo lo del plan Basico", "Monitoreo de conservacion", "Pedidos de abastecimiento", "Hasta 5 usuarios"] },
+      "enterprise": { "name": "Empresarial", "price": "A medida", "period": "", "description": "Para cadenas de varios minimarkets", "features": ["Todo lo del plan Profesional", "Multi-minimarket", "Soporte prioritario"] }
     }
   },
   "contact": {
     "eyebrow": "Contacto",
-    "title": "Conversemos sobre MarketGo",
-    "subtitle": "Esta landing presenta el producto; la plataforma principal se desarrollara en otro repositorio.",
-    "name": "Nombre", "namePlaceholder": "Tu nombre",
-    "email": "Correo", "emailPlaceholder": "Tu correo electronico",
-    "message": "Mensaje", "messagePlaceholder": "Cuentanos que necesitas conocer",
-    "action": "Enviar mensaje",
-    "highlights": { "reply": { "value": "B2B", "label": "Minimarkets y proveedores" }, "scope": { "value": "Web", "label": "Landing informativa" } }
+    "title": "Hablemos sobre tu minimarket",
+    "description": "Cuentanos sobre tu minimarket y te contactaremos para agendar una demo o resolver dudas sobre los planes. Respondemos en menos de 24 horas habiles.",
+    "info": { "email": "hola@marketgo.pe", "whatsapp": "+51 999 000 111", "schedule": "Lun-Vie, 9am-6pm" },
+    "fields": { "name": "Nombre completo", "email": "Correo electronico", "store": "Nombre del minimarket", "phone": "Telefono", "message": "Cuentanos que necesitas", "privacy": "Acepto la politica de privacidad" },
+    "action": "Enviar mensaje"
   },
-  "footer": { "slogan": "Startup tecnologica peruana enfocada en soluciones digitales escalables.", "copy": "2026 (c) Market-Labs. Todos los derechos reservados." }
+  "footer": { "copy": "2026 - Gestion de inventario para minimarkets organicos", "terms": "Terminos", "privacy": "Privacidad", "support": "Soporte" }
 }

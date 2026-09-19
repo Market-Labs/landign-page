@@ -1,28 +1,16 @@
 ﻿@media (max-width: 900px) {
   .nav-toggle { display: block; }
-  .nav-panel { position: absolute; top: var(--header-height); left: 16px; right: 16px; display: none; flex-direction: column; align-items: stretch; gap: 0; padding: 16px; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: #fff; box-shadow: var(--shadow-card); }
+  .nav-panel { position: absolute; top: var(--header-height); left: 24px; right: 24px; display: none; flex-direction: column; align-items: stretch; gap: 0; padding: 16px; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: #fff; box-shadow: var(--shadow-card); }
   .nav-panel--open { display: flex; }
   .nav-panel a { padding: 13px 6px; }
-  .language-button { margin-top: 10px; }
-  .hero-container, .benefits-layout, .contact-panel { grid-template-columns: 1fr; }
-  .hero-showcase { min-height: 500px; }
-  .hero-device { transform: none; }
-  .hero-stats, .services-grid, .testimonial-track, .team-grid, .mission-strip, .testimonial-cta, .contact-highlights { grid-template-columns: 1fr; }
-  .testimonial-cta { align-items: start; }
-  .benefits-copy { position: static; }
-  .benefit-card:nth-child(2) { transform: none; }
-  .pricing-grid { grid-template-columns: 1fr; }
-  .plan-card--featured { transform: none; }
-  .footer-inner { align-items: flex-start; flex-direction: column; }
+  .language-button, .access-button { margin-top: 10px; }
+  .home-layout, .info-layout, .contact-panel { grid-template-columns: 1fr; }
+  .video-grid, .plans-grid, .info-feature-grid, .info-mini-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 560px) {
-  .section { padding: 72px 0; }
-  .section-full { padding-top: 112px; }
-  .hero-copy h1 { font-size: 4rem; }
-  .hero-actions, .hero-stats { grid-template-columns: 1fr; flex-direction: column; }
-  .hero-showcase { min-height: auto; margin-top: 34px; }
-  .floating-chip { position: static; margin-top: 14px; width: 100%; }
-  .device-orbit { display: none; }
-  .contact-panel, .contact-form { padding: 24px; }
-  .form-row { grid-template-columns: 1fr; }
+  .container { width: min(100% - 32px, var(--container-max)); }
+  .home-section, .section { padding: 64px 0; }
+  .home-copy h1 { font-size: 2.8rem; }
+  .home-actions, .form-row { flex-direction: column; grid-template-columns: 1fr; }
+  .preview-row { grid-template-columns: 1fr; }
 }

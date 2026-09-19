@@ -1,92 +1,52 @@
 ﻿{
-  "nav": { "home": "Home", "services": "Solution", "benefits": "Benefits", "pricing": "Plans", "team": "Team", "contact": "Contact" },
-  "hero": {
-    "eyebrow": "Market-Labs presents",
-    "title": "MarketGo",
-    "subtitle": "A web platform for managing inventory, lots, conservation, and supply operations for organic products between minimarkets and suppliers.",
-    "primaryAction": "Explore the solution",
-    "secondaryAction": "Contact the team",
-    "metricInventory": "Inventory products",
-    "metricLots": "Lots",
-    "metricOrders": "Orders",
-    "stats": { "roles": "Connected roles", "alerts": "Conservation alerts", "traceability": "Operational traceability" },
-    "chips": { "fresh": "Organic products", "freshDetail": "Expirations and conditions", "supply": "Supply orders", "supplyDetail": "Supplier and minimarket coordination" }
+  "nav": { "product": "Product description", "videos": "Videos", "pricing": "Plans", "contact": "Contact", "access": "Access" },
+  "home": {
+    "eyebrow": "Organic inventory management",
+    "title": "Control your inventory before it is too late",
+    "subtitle": "Expiration alerts, conservation conditions, and supply orders in one place for your organic minimarket.",
+    "demoAction": "Request demo",
+    "videoAction": "Watch video",
+    "preview": { "inventory": "Controlled products", "alerts": "Active alerts", "orders": "Pending orders" }
   },
-  "services": {
-    "eyebrow": "Solution",
-    "title": "Centralized control for fresh products",
-    "subtitle": "MarketGo organizes critical minimarket information and improves supplier coordination from a shared dashboard.",
-    "items": {
-      "catalog": { "title": "Inventory and lots", "description": "Register organic products, review stock, organize lots, and track expiration dates." },
-      "orders": { "title": "Supply orders", "description": "Connect suppliers and minimarkets to create, review, accept, or reject traceable orders." },
-      "analytics": { "title": "Conservation and alerts", "description": "Monitor temperature, humidity, and products at risk to reduce waste and act on time." }
-    },
-    "mission": { "label": "Mission", "title": "Reduce losses and improve management", "description": "Centralize inventory, conservation, and supply so minimarkets work with clear information." },
-    "vision": { "label": "Vision", "title": "A more connected organic ecosystem", "description": "Support sustainable operations between stores and suppliers through traceability and digital coordination." }
-  },
-  "benefits": {
-    "eyebrow": "Benefits",
-    "title": "Less waste, more traceability, better decisions",
-    "subtitle": "The landing communicates the value of a platform built for real organic product operations.",
-    "items": {
-      "speed": { "title": "Early detection", "description": "Expiration and conservation alerts help teams act before products deteriorate." },
-      "control": { "title": "Clear roles and permissions", "description": "Administrators and suppliers share information while operating under their own responsibilities." },
-      "growth": { "title": "Organized supply", "description": "Accepted orders can feed inventory while keeping history and control." }
-    },
-    "panel": { "label": "Key focus", "value": "Organic products under control", "description": "Inventory, lots, suppliers, orders, and alerts are presented as one operation." }
-  },
-  "testimonials": {
-    "eyebrow": "Target users",
-    "title": "Designed for teams managing time-sensitive products",
-    "subtitle": "Messages aimed at minimarket administrators and organic product suppliers.",
-    "action": "View plans",
-    "items": {
-      "one": { "quote": "I need to know which products are close to expiring before they become losses.", "name": "Minimarket administrator", "role": "Inventory management", "initials": "MA" },
-      "two": { "quote": "I want to review my offered products and follow the orders I create.", "name": "Organic supplier", "role": "Supply operations", "initials": "OS" },
-      "three": { "quote": "Traceability helps coordinate deliveries and keep reliable operational information.", "name": "Market-Labs Team", "role": "Product", "initials": "ML" }
+  "productInfo": {
+    "eyebrow": "What MarketGo offers",
+    "title": "One place for inventory, lots, conservation, and supply",
+    "description": "MarketGo centralizes your organic minimarket's daily operation: know which products need attention, which are close to expiring, and how every order is progressing.",
+    "highlight": { "title": "Smart alerts", "description": "Upcoming expirations and out-of-range conservation conditions, notified before they become losses." },
+    "cards": {
+      "inventory": { "title": "Centralized inventory", "description": "Stock, categories, and suppliers in one view." },
+      "lots": { "title": "Lot control", "description": "Full traceability by date and supplier." },
+      "orders": { "title": "Supply orders", "description": "Accept or reject orders in one click." },
+      "roles": { "title": "Role-based access", "description": "Each user sees only what belongs to their role." }
     }
+  },
+  "videos": {
+    "eyebrow": "Meet us",
+    "title": "Meet the team and discover MarketGo in action",
+    "subtitle": "Two short videos to learn who is behind the product and how it can help your daily work.",
+    "team": { "kicker": "ABOUT THE TEAM", "title": "Meet the people behind MarketGo", "description": "The team members introduce themselves and share what motivated them to create the platform." },
+    "product": { "kicker": "ABOUT THE PRODUCT", "title": "How MarketGo works", "description": "A tour through inventory, lots, conservation, and supply in one demo." }
   },
   "pricing": {
     "eyebrow": "Plans",
-    "title": "Options for presenting the commercial proposal",
-    "subtitle": "This block is ready to communicate packages or future versions without implementing the platform in this repository.",
-    "action": "Request information",
+    "title": "A plan for every minimarket size",
+    "subtitle": "Start with the essentials and grow into advanced conservation and supply features.",
+    "action": "Choose plan",
+    "salesAction": "Contact sales",
+    "badge": "Most chosen",
     "plans": {
-      "starter": {
-        "tag": "Start",
-        "name": "Informational landing",
-        "description": "For explaining the solution and validating interest from minimarkets and suppliers.",
-        "price": "Presentation",
-        "features": { "catalog": "Clear value proposition", "contact": "Contact form", "analytics": "Sections ready for a demo" }
-      },
-      "pro": {
-        "tag": "Next stage",
-        "name": "Commercial demo",
-        "description": "For connecting the landing with a future platform or functional prototype.",
-        "price": "Custom",
-        "features": { "catalog": "Complete product narrative", "contact": "Conversion-oriented CTAs", "analytics": "Base for future metrics" }
-      }
-    }
-  },
-  "team": {
-    "eyebrow": "Team",
-    "title": "Market-Labs members",
-    "subtitle": "Software Engineering team responsible for the MarketGo proposal.",
-    "members": {
-      "caceres": { "name": "Caceres Pizarro, Albino Florencio", "role": "Software Engineering", "initials": "AC", "focus": "Product and development" },
-      "merino": { "name": "Merino Ordinola, Winnie Lisbeth", "role": "Software Engineering", "initials": "WM", "focus": "Research and UX" },
-      "torres": { "name": "Torres Huaman, Alexis Calin", "role": "Software Engineering", "initials": "AT", "focus": "Analysis and support" }
+      "basic": { "name": "Basic", "price": "S/ 79", "period": "/month", "description": "For a minimarket with simple operations", "features": ["Inventory and lots", "Expiration alerts", "1 admin user"] },
+      "professional": { "name": "Professional", "price": "S/ 149", "period": "/month", "description": "For minimarkets with several suppliers", "features": ["Everything in Basic", "Conservation monitoring", "Supply orders", "Up to 5 users"] },
+      "enterprise": { "name": "Enterprise", "price": "Custom", "period": "", "description": "For chains with several minimarkets", "features": ["Everything in Professional", "Multi-minimarket", "Priority support"] }
     }
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Let's talk about MarketGo",
-    "subtitle": "This landing presents the product; the main platform will be developed in another repository.",
-    "name": "Name", "namePlaceholder": "Your name",
-    "email": "Email", "emailPlaceholder": "Your email address",
-    "message": "Message", "messagePlaceholder": "Tell us what you need to know",
-    "action": "Send message",
-    "highlights": { "reply": { "value": "B2B", "label": "Minimarkets and suppliers" }, "scope": { "value": "Web", "label": "Informational landing" } }
+    "title": "Let's talk about your minimarket",
+    "description": "Tell us about your minimarket and we will contact you to schedule a demo or answer questions about plans. We reply in less than 24 business hours.",
+    "info": { "email": "hola@marketgo.pe", "whatsapp": "+51 999 000 111", "schedule": "Mon-Fri, 9am-6pm" },
+    "fields": { "name": "Full name", "email": "Email address", "store": "Minimarket name", "phone": "Phone", "message": "Tell us what you need", "privacy": "I accept the privacy policy" },
+    "action": "Send message"
   },
-  "footer": { "slogan": "Peruvian tech startup focused on scalable digital solutions.", "copy": "2026 (c) Market-Labs. All rights reserved." }
+  "footer": { "copy": "2026 - Inventory management for organic minimarkets", "terms": "Terms", "privacy": "Privacy", "support": "Support" }
 }

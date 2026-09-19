@@ -1,12 +1,10 @@
 ﻿<script setup lang="ts">
 import TheHeader from './shared/presentation/components/TheHeader.vue'
-import TheHero from './landing/presentation/components/TheHero.vue'
-import ServicesSection from './landing/presentation/components/ServicesSection.vue'
-import BenefitsSection from './landing/presentation/components/BenefitsSection.vue'
-import TestimonialsSection from './landing/presentation/components/TestimonialsSection.vue'
-import PricingSection from './landing/presentation/components/PricingSection.vue'
-import TeamSection from './landing/presentation/components/TeamSection.vue'
-import ContactSection from './landing/presentation/components/ContactSection.vue'
+import HomeSection from './landing/home/presentation/components/HomeSection.vue'
+import ProductInformationSection from './landing/product-information/presentation/components/ProductInformationSection.vue'
+import VideoSection from './landing/videos/presentation/components/VideoSection.vue'
+import PricingSection from './landing/pricing/presentation/components/PricingSection.vue'
+import ContactSection from './landing/contact/presentation/components/ContactSection.vue'
 import SiteFooter from './shared/presentation/components/SiteFooter.vue'
 </script>
 
@@ -14,12 +12,10 @@ import SiteFooter from './shared/presentation/components/SiteFooter.vue'
   <div class="landing-page">
     <TheHeader />
     <main>
-      <TheHero />
-      <ServicesSection />
-      <BenefitsSection />
-      <TestimonialsSection />
+      <HomeSection />
+      <ProductInformationSection />
+      <VideoSection />
       <PricingSection />
-      <TeamSection />
       <ContactSection />
     </main>
     <SiteFooter />

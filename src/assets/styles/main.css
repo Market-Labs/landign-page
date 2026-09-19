@@ -1,6 +1,6 @@
-﻿.btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 22px; border: 0; border-radius: var(--radius-sm); font-weight: 800; text-decoration: none; cursor: pointer; transition: transform .2s ease, box-shadow .2s ease, background .2s ease; }
+﻿.btn { display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 28px; border-radius: var(--radius-sm); border: 1px solid transparent; font-weight: 800; text-decoration: none; cursor: pointer; transition: transform .18s ease, box-shadow .18s ease, background .18s ease; }
 .btn:hover { transform: translateY(-2px); }
-.btn--primary { background: var(--color-teal); color: #fff; box-shadow: 0 10px 24px rgba(44, 185, 195, .24); }
-.btn--ghost { background: rgba(255,255,255,.74); color: var(--color-navy); border: 1px solid rgba(20,33,49,.08); }
-.btn--light { background: #fff; color: var(--color-navy); box-shadow: 0 12px 26px rgba(16, 40, 63, .16); }
+.btn--primary { background: var(--color-blue); color: #fff; box-shadow: 0 12px 24px rgba(18, 146, 244, .2); }
+.btn--orange { background: var(--color-orange); color: #fff; box-shadow: 0 12px 24px rgba(255, 91, 22, .2); }
+.btn--secondary { background: #fff; color: var(--color-blue-dark); border-color: var(--color-border); }
 .landing-page { min-height: 100vh; }
