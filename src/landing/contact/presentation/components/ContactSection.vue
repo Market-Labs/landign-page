@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 </script>
@@ -13,7 +13,7 @@ const { t } = useI18n()
           <div class="contact-cards">
             <article>
               <strong>{{ t('contact.cards.email') }}</strong>
-              <span>{{ t('contact.info.email') }}</span>
+              <span>hola@marketgo.pe</span>
             </article>
             <article>
               <strong>{{ t('contact.cards.whatsapp') }}</strong>
@@ -43,3 +43,4 @@ const { t } = useI18n()
     </div>
   </section>
 </template>
+
