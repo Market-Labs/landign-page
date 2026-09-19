@@ -1,31 +1,64 @@
-﻿{
-  "nav": { "product": "Descripcion del producto", "videos": "Videos", "pricing": "Planes", "contact": "Contacto", "access": "Acceder" },
+{
+  "nav": {
+    "product": "Descripcion del producto",
+    "videos": "Videos",
+    "pricing": "Planes",
+    "contact": "Contacto",
+    "access": "Acceder"
+  },
   "home": {
     "eyebrow": "Gestion de inventario organico",
     "title": "Controla tu inventario antes de que sea tarde",
     "subtitle": "Alertas de vencimiento, condiciones de conservacion y pedidos de abastecimiento, todo en un solo lugar para tu minimarket organico.",
     "demoAction": "Solicitar demo",
     "videoAction": "Ver video",
-    "preview": { "inventory": "Productos controlados", "alerts": "Alertas activas", "orders": "Pedidos pendientes" }
+    "preview": {
+      "inventory": "Productos controlados",
+      "alerts": "Alertas activas",
+      "orders": "Pedidos pendientes"
+    }
   },
   "productInfo": {
     "eyebrow": "Que ofrece MarketGo",
     "title": "Un solo lugar para inventario, lotes, conservacion y abastecimiento",
     "description": "MarketGo centraliza la operacion diaria de tu minimarket organico: sabras que productos requieren atencion, cuales estan por vencer y como avanza cada pedido, sin cambiar entre planillas o sistemas distintos.",
-    "highlight": { "title": "Alertas inteligentes", "description": "Vencimientos proximos y condiciones de conservacion fuera de rango, notificadas antes de que se conviertan en perdida." },
+    "highlight": {
+      "title": "Alertas inteligentes",
+      "description": "Vencimientos proximos y condiciones de conservacion fuera de rango, notificadas antes de que se conviertan en perdida."
+    },
     "cards": {
-      "inventory": { "title": "Inventario centralizado", "description": "Stock, categorias y proveedores en una sola vista." },
-      "lots": { "title": "Control de lotes", "description": "Trazabilidad completa por fecha y proveedor." },
-      "orders": { "title": "Pedidos de abastecimiento", "description": "Acepta o rechaza pedidos con un clic." },
-      "roles": { "title": "Accesos por rol", "description": "Cada usuario ve solo lo que le corresponde." }
+      "inventory": {
+        "title": "Inventario centralizado",
+        "description": "Stock, categorias y proveedores en una sola vista."
+      },
+      "lots": {
+        "title": "Control de lotes",
+        "description": "Trazabilidad completa por fecha y proveedor."
+      },
+      "orders": {
+        "title": "Pedidos de abastecimiento",
+        "description": "Acepta o rechaza pedidos con un clic."
+      },
+      "roles": {
+        "title": "Accesos por rol",
+        "description": "Cada usuario ve solo lo que le corresponde."
+      }
     }
   },
   "videos": {
     "eyebrow": "Conocenos",
     "title": "Conoce al equipo y descubre MarketGo en accion",
     "subtitle": "Dos videos cortos para conocer quienes estamos detras del producto y como puede ayudarte en tu dia a dia.",
-    "team": { "kicker": "ABOUT THE TEAM", "title": "Conoce a las personas detras de MarketGo", "description": "Los integrantes del equipo se presentan y cuentan que los motivo a crear la plataforma." },
-    "product": { "kicker": "ABOUT THE PRODUCT", "title": "Asi funciona MarketGo", "description": "Un recorrido por inventario, lotes, conservacion y abastecimiento en una sola demostracion." }
+    "team": {
+      "kicker": "ABOUT THE TEAM",
+      "title": "Conoce a las personas detras de MarketGo",
+      "description": "Los integrantes del equipo se presentan y cuentan que los motivo a crear la plataforma."
+    },
+    "product": {
+      "kicker": "ABOUT THE PRODUCT",
+      "title": "Asi funciona MarketGo",
+      "description": "Un recorrido por inventario, lotes, conservacion y abastecimiento en una sola demostracion."
+    }
   },
   "pricing": {
     "eyebrow": "Planes",
@@ -35,18 +68,70 @@
     "salesAction": "Contactar ventas",
     "badge": "Mas elegido",
     "plans": {
-      "basic": { "name": "Basico", "price": "S/ 79", "period": "/mes", "description": "Para un minimarket con operacion simple", "features": ["Inventario y lotes", "Alertas de vencimiento", "1 usuario administrador"] },
-      "professional": { "name": "Profesional", "price": "S/ 149", "period": "/mes", "description": "Para minimarkets con varios proveedores", "features": ["Todo lo del plan Basico", "Monitoreo de conservacion", "Pedidos de abastecimiento", "Hasta 5 usuarios"] },
-      "enterprise": { "name": "Empresarial", "price": "A medida", "period": "", "description": "Para cadenas de varios minimarkets", "features": ["Todo lo del plan Profesional", "Multi-minimarket", "Soporte prioritario"] }
+      "basic": {
+        "name": "Basico",
+        "price": "S/ 79",
+        "period": "/mes",
+        "description": "Para un minimarket con operacion simple",
+        "features": [
+          "Inventario y lotes",
+          "Alertas de vencimiento",
+          "1 usuario administrador"
+        ]
+      },
+      "professional": {
+        "name": "Profesional",
+        "price": "S/ 149",
+        "period": "/mes",
+        "description": "Para minimarkets con varios proveedores",
+        "features": [
+          "Todo lo del plan Basico",
+          "Monitoreo de conservacion",
+          "Pedidos de abastecimiento",
+          "Hasta 5 usuarios"
+        ]
+      },
+      "enterprise": {
+        "name": "Empresarial",
+        "price": "A medida",
+        "period": "",
+        "description": "Para cadenas de varios minimarkets",
+        "features": [
+          "Todo lo del plan Profesional",
+          "Multi-minimarket",
+          "Soporte prioritario"
+        ]
+      }
     }
   },
   "contact": {
     "eyebrow": "Contacto",
     "title": "Hablemos sobre tu minimarket",
     "description": "Cuentanos sobre tu minimarket y te contactaremos para agendar una demo o resolver dudas sobre los planes. Respondemos en menos de 24 horas habiles.",
-    "info": { "email": "hola@marketgo.pe", "whatsapp": "+51 999 000 111", "schedule": "Lun-Vie, 9am-6pm" },
-    "fields": { "name": "Nombre completo", "email": "Correo electronico", "store": "Nombre del minimarket", "phone": "Telefono", "message": "Cuentanos que necesitas", "privacy": "Acepto la politica de privacidad" },
-    "action": "Enviar mensaje"
+    "info": {
+      "email": "hola@marketgo.pe",
+      "whatsapp": "+51 999 000 111",
+      "schedule": "Lun-Vie, 9am-6pm"
+    },
+    "fields": {
+      "name": "Nombre completo",
+      "email": "Correo electronico",
+      "store": "Nombre del minimarket",
+      "phone": "Telefono",
+      "message": "Cuentanos que necesitas",
+      "privacy": "Acepto la politica de privacidad"
+    },
+    "action": "Enviar mensaje",
+    "cards": {
+      "email": "Correo",
+      "whatsapp": "WhatsApp",
+      "schedule": "Horario"
+    }
   },
-  "footer": { "copy": "2026 - Gestion de inventario para minimarkets organicos", "terms": "Terminos", "privacy": "Privacidad", "support": "Soporte" }
+  "footer": {
+    "copy": "2026 - Gestion de inventario para minimarkets organicos",
+    "terms": "Terminos",
+    "privacy": "Privacidad",
+    "support": "Soporte"
+  }
 }

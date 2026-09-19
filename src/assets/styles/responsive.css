@@ -14,3 +14,5 @@
   .home-actions, .form-row { flex-direction: column; grid-template-columns: 1fr; }
   .preview-row { grid-template-columns: 1fr; }
 }
+
+@media (max-width: 900px) { .contact-cards { grid-template-columns: 1fr; } .contact-section { min-height: auto; } }
