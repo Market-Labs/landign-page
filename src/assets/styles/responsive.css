@@ -16,3 +16,14 @@
 }
 
 @media (max-width: 900px) { .contact-cards { grid-template-columns: 1fr; } .contact-section { min-height: auto; } }
+
+@media (max-width: 560px) {
+  .home-actions .btn { width: 100%; }
+  .contact-form { padding: 22px; }
+  .privacy-check { align-items: flex-start; justify-content: flex-start; text-align: left; }
+  .privacy-check input { flex: 0 0 auto; margin-top: 3px; }
+  .privacy-check span { line-height: 1.35; }
+  .footer-inner { grid-template-columns: 1fr; justify-items: start; text-align: left; }
+  .footer-inner nav { justify-content: start; flex-wrap: wrap; gap: 14px 22px; }
+  .footer-inner small { max-width: 260px; line-height: 1.45; }
+}

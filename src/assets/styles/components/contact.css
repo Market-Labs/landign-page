@@ -12,3 +12,6 @@
 .contact-form input:focus, .contact-form textarea:focus { outline: 2px solid rgba(18,146,244,.18); border-color: var(--color-blue); }
 .privacy-check { display: flex; align-items: center; gap: 10px; color: var(--color-muted); font-size: .9rem; }
 .contact-form .btn { width: 100%; }
+
+.contact-section { display: block; min-height: auto; scroll-margin-top: var(--header-height); }
+.privacy-check input { width: auto; }
