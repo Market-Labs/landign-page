@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 const cards = ['inventory', 'lots', 'orders', 'roles']
@@ -11,7 +11,9 @@ const cards = ['inventory', 'lots', 'orders', 'roles']
         <p class="section-pill">{{ t('productInfo.eyebrow') }}</p>
         <h2>{{ t('productInfo.title') }}</h2>
         <p>{{ t('productInfo.description') }}</p>
-        <div class="info-visual" aria-hidden="true"></div>
+        <div class="info-visual" aria-hidden="true">
+          <img src="/assets/images/illustrations/marketgo-process-flow.svg" alt="" loading="lazy" />
+        </div>
       </div>
       <div class="info-feature-grid">
         <article class="info-highlight">
