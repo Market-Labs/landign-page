@@ -15,7 +15,11 @@
     "preview": {
       "inventory": "Controlled products",
       "alerts": "Active alerts",
-      "orders": "Pending orders"
+      "orders": "Pending orders",
+      "growth": "+24 this week",
+      "stock": "Stock",
+      "lots": "Lots",
+      "supply": "Orders"
     }
   },
   "productInfo": {
@@ -135,3 +139,4 @@
     "support": "Support"
   }
 }
+

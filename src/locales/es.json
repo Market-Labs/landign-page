@@ -15,7 +15,11 @@
     "preview": {
       "inventory": "Productos controlados",
       "alerts": "Alertas activas",
-      "orders": "Pedidos pendientes"
+      "orders": "Pedidos pendientes",
+      "growth": "+24 esta semana",
+      "stock": "Stock",
+      "lots": "Lotes",
+      "supply": "Pedidos"
     }
   },
   "productInfo": {
@@ -135,3 +139,4 @@
     "support": "Soporte"
   }
 }
+

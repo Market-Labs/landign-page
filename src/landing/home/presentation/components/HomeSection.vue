@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 </script>
@@ -16,9 +16,30 @@ const { t } = useI18n()
         </div>
       </div>
       <div class="home-preview" aria-label="MarketGo platform preview">
-        <div class="preview-card preview-card--main">
-          <span>{{ t('home.preview.inventory') }}</span>
-          <strong>128</strong>
+        <div class="preview-orbit preview-orbit--top" aria-hidden="true"></div>
+        <div class="preview-orbit preview-orbit--bottom" aria-hidden="true"></div>
+        <div class="preview-window">
+          <div class="preview-window__bar" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="preview-card preview-card--main">
+            <span>{{ t('home.preview.inventory') }}</span>
+            <strong>128</strong>
+            <small>{{ t('home.preview.growth') }}</small>
+          </div>
+          <div class="preview-chart" aria-hidden="true">
+            <span style="height: 46%"></span>
+            <span style="height: 72%"></span>
+            <span style="height: 54%"></span>
+            <span style="height: 86%"></span>
+          </div>
+          <div class="preview-flow" aria-hidden="true">
+            <span>{{ t('home.preview.stock') }}</span>
+            <span>{{ t('home.preview.lots') }}</span>
+            <span>{{ t('home.preview.supply') }}</span>
+          </div>
         </div>
         <div class="preview-row">
           <div><span>{{ t('home.preview.alerts') }}</span><strong>12</strong></div>
@@ -28,3 +49,4 @@ const { t } = useI18n()
     </div>
   </section>
 </template>
+
